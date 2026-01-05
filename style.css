@@ -47,6 +47,31 @@ header nav a {
     margin: 0 15px;
     font-weight: bold;
 }
+.project-card {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+.project-card h3 {
+    margin-bottom: 5px;
+}
+
+.project-card a {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
 
 /* =====================
    SECTIONS
