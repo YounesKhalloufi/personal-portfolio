@@ -109,6 +109,18 @@ footer {
     margin-bottom: 15px;
     transition: transform 0.2s;
 }
+/* Dark mode styles */
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+/* Optional: button style */
+#themeToggle {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
 
 .project-card:hover {
     transform: scale(1.02); /* effet zoom au survol */
