@@ -1,0 +1,104 @@
+/* =====================
+   RESET GLOBAL
+   ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =====================
+   STYLE GLOBAL
+   ===================== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* fond gris clair */
+    color: #333;               /* texte sombre */
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none; /* enlever le soulignement */
+    color: #333;
+}
+
+a:hover {
+    color: #007bff;       /* couleur bleu au survol */
+}
+
+/* =====================
+   HEADER
+   ===================== */
+header {
+    background-color: #fff; /* fond blanc */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* petite ombre */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* =====================
+   SECTIONS
+   ===================== */
+section {
+    background-color: #fff;          /* fond blanc */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;              /* coins arrondis */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* petite ombre */
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #007bff;                  /* bleu pour les titres */
+}
+
+/* =====================
+   FOOTER
+   ===================== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 -1px 3px rgba(0,0,0,0.1);
+}
+
+/* =====================
+   CARDS PROJETS (optionnel)
+   ===================== */
+.project-card {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.02); /* effet zoom au survol */
+}
+
+/* =====================
+   RESPONSIVE (mobile)
+   ===================== */
+@media (max-width: 600px) {
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    body {
+        padding: 0 10px;
+    }
+}
